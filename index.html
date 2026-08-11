@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>alnahian59</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./logo.png" />
+    <link rel="shortcut icon" type="image/png" href="./logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cormorant+Garamond:wght@500;600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="cursor-dot"></div>
+    <div id="cursor-circle"></div>
+    <div class="bg-blur blur-a parallax" data-speed="0.06"></div>
+    <div class="bg-blur blur-b parallax" data-speed="0.04"></div>
+
+    <header class="site-header" id="nav">
+      <a class="brand" href="#home">
+        <img class="brand-mark" src="./logo.png" alt="Al Nahian Niloy logo" />
+        <span class="brand-text">alnahian59</span>
+      </a>
+      <button class="menu-toggle" aria-expanded="false" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <nav class="site-nav">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <!--<a href="#projects">Work</a>-->
+        <a href="#experience">Experience</a>
+      </nav>
+      <a class="header-cta" href="#contact">Let’s talk</a>
+    </header>
+
+    <main> 
+      <section class="hero section" id="home">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">Computer Science &amp; Engineering • Undergraduate</p>
+          <h1>
+            Building <span>thoughtful</span> software<br />with research-driven curiosity.
+          </h1>
+          <p class="hero-text">
+            I’m Al Nahian Niloy, a developer who enjoys turning ideas into practical products with clean architecture, strong fundamentals, and a product-minded approach.
+          </p>
+          <div class="hero-actions">
+            <!-- <a class="btn btn-primary" href="#projects">View selected work</a> -->
+            <a class="btn btn-secondary" href="#contact">Say hello</a>
+          </div>
+          <div class="hero-stats">
+            <div>
+              <strong class="counter" data-target="2">0</strong>
+              <span>projects built</span>
+            </div>
+            <div>
+              <strong class="counter" data-target="1">0</strong>
+              <span>years learning</span>
+            </div>
+            <div>
+              <strong class="counter" data-target="10">0</strong>
+              <span>problems solved</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <div class="photo-card">
+            <img src="image.jpeg" alt="Al Nahian Niloy" />
+          </div>
+          <div class="floating-card card-top parallax" data-speed="0.08">
+            <span>Open</span>
+            <strong>to opportunities</strong>
+          </div>
+          <div class="floating-card card-bottom parallax" data-speed="0.05">
+            <span>Focus</span>
+            <strong>Autonomous Systems</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="section about" id="about">
+        <div class="section-heading reveal">
+          <p class="eyebrow">About</p>
+          <h2>A developer who thinks before typing.</h2>
+        </div>
+        <div class="about-grid">
+          <div class="about-copy reveal">
+            <p>
+              I’m a Computer Science &amp; Engineering student with a love for building products that are reliable, human-centered, and thoughtfully engineered.
+            </p>
+            <p>
+              My work sits at the intersection of algorithms, systems, and product thinking. I enjoy solving hard problems, writing maintainable code, and learning how technology can create real impact.
+            </p>
+            <div class="pill-row">
+              <span class="pill">DSA</span>
+              <span class="pill">System Design</span>
+              <span class="pill">Backend</span>
+              <span class="pill">AI/ML</span>
+              <span class="pill">Open Source</span>
+            </div>
+          </div>
+          <div class="about-card reveal">
+            <div class="info-row"><span>Degree</span><strong>B.Sc. CSE</strong></div>
+            <div class="info-row"><span>University</span><strong>United International University</strong></div>
+            <div class="info-row"><span>Focus</span><strong>Data, Models, Systems</strong></div>
+            <div class="info-row"><span>Location</span><strong>Dhaka, Bangladesh</strong></div>
+            <div class="info-row"><span>Status</span><strong class="accent">Open to work</strong></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skills" id="skills">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Skills</p>
+          <h2>Tools that actually work.</h2>
+        </div>
+        <div class="card-grid">
+          <article class="skill-card reveal">
+            <h3>Languages</h3>
+            <ul>
+              <li>Python</li>
+              <li>JavaScript</li>
+              <li>C / C++</li>
+              <li>Java</li>
+              <li>SQL</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Frontend</h3>
+            <ul>
+              <li>React</li>
+              <li>HTML / CSS</li>
+              <li>TypeScript</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Backend &amp; Data</h3>
+            <ul>
+              <li>Node.js</li>
+            </ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Tools</h3>
+            <ul>
+              <li>Git / GitHub</li>
+              <li>Linux</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!--<section class="section projects" id="projects">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Selected Work</p>
+          <h2>A few things I’ve built and explored.</h2>
+        </div>
+        <div class="project-list">
+          <article class="project-card reveal">
+            <div class="project-meta">01</div>
+            <div>
+              <h3>SmartChat AI</h3>
+              <p>Real-time AI chat platform with conversational flows, intent detection, and scalable backend architecture.</p>
+            </div>
+            <div class="project-tags"><span>React</span><span>Node.js</span><span>Python</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-meta">02</div>
+            <div>
+              <h3>CropGuard</h3>
+              <p>Plant disease classifier built with CNNs and deployed as an accessible API-driven product.</p>
+            </div>
+            <div class="project-tags"><span>TensorFlow</span><span>Flask</span><span>AWS</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-meta">03</div>
+            <div>
+              <h3>MiniOS Scheduler</h3>
+              <p>Interactive CPU scheduling simulator with multiple algorithms and live visualization.</p>
+            </div>
+            <div class="project-tags"><span>C++</span><span>STL</span><span>JS</span></div>
+          </article>
+          <article class="project-card reveal">
+            <div class="project-meta">04</div>
+            <div>
+              <h3>Bangla NLP Research</h3>
+              <p>Transformer-based sentiment analysis project for Bangla text, exploring modern NLP methods.</p>
+            </div>
+            <div class="project-tags"><span>PyTorch</span><span>HuggingFace</span><span>Research</span></div>
+          </article>
+        </div>
+      </section> -->
+
+      <section class="section experience" id="experience">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Experience</p>
+          <h2>Where I’ve learned and shipped.</h2>
+        </div>
+        <div class="exp-shell">
+          <div class="exp-nav reveal">
+            <button class="exp-tab active" data-panel="0">Research</button>
+            <button class="exp-tab" data-panel="1">Product</button>
+            <button class="exp-tab" data-panel="2">Academics</button>
+          </div>
+          <div class="exp-panels reveal">
+            <div class="exp-panel active" id="panel-0">
+              <h3>Research &amp; Problem Solving</h3>
+              <p>Exploring NLP, machine learning, and systems thinking through independent projects and academic work.</p>
+              <div class="project-tags"><span>Python</span><!--<span>PyTorch</span><span>HuggingFace</span>--></div>
+            </div>
+            <div class="exp-panel" id="panel-1">
+              <h3>Product-minded Development</h3>
+              <p>Building full-stack experiences with a clear focus on maintainability, performance, and user value.</p>
+              <div class="project-tags"><span>React</span><span>Node.js</span><!--<span>PostgreSQL</span>--></div>
+            </div>
+            <div class="exp-panel" id="panel-2">
+              <h3>Computer Science Foundation</h3>
+              <p>Strong grounding in data structures, operating systems, networking, databases, and software engineering fundamentals.</p>
+              <div class="project-tags"><span>DSA</span><span>OOP</span><span>DBMS</span></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section research" id="research">
+        <div class="section-heading reveal">
+          <p class="eyebrow">Research &amp; Milestones</p>
+          <h2>Curiosity is still the main engine.</h2>
+        </div>
+        <div class="research-grid">
+          <div class="research-card reveal">
+            <h3>Research</h3>
+            <p>Exploring AI, machine learning, and modern software systems with a focus on useful, ethical, and practical impact.</p>
+            <a href="#contact">Open to collaborations</a>
+          </div>
+          <div class="research-card reveal">
+            <h3>Milestones</h3>
+            <ul>
+              <!--<li>IEEE-inspired problem solving and technical growth</li>-->
+              <li>Open-source and collaborative development mindset</li>
+              <li>Continuous improvement through real-world projects</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section contact" id="contact">
+        <div class="contact-card reveal">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2>Let’s build something meaningful.</h2>
+            <p>I’m open to internships, freelance work, research collaboration, and thoughtful conversations about software and product ideas.</p>
+          </div>
+          <div class="contact-links">
+            <a href="mailto:alnahianniloy59@gmail.com">alnahianniloy59@gmail.com</a>
+            <a href="https://github.com/alnahian59">GitHub</a>
+            <a href="https://www.linkedin.com/in/al-nahian-niloy-802223383/">LinkedIn</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>© 2026 Al Nahian Niloy</p>
+      <div>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <!--<a href="#projects">Work</a>-->
+        <a href="#experience">Experience</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
